@@ -12,12 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/weather")
 public class WeatherController {
 
-    @GetMapping("/data")
+    @GetMapping("/")
     public ResponseEntity<List<WeatherData>> getWeatherData() {
         try {
-            // Create an instance of DataGenerator
-            // DataGenerator dataGenerator = new DataGenerator();
-
             // Generate weather data using DataGenerator
             List<WeatherData> weatherData = DataGenerator.generateWeatherData();
 
