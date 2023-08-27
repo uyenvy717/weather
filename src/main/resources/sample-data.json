@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "feels_like": 19.35,
+    "temp": 19.56,
+    "main": "Clouds",
+    "wind_speed": 3.6,
+    "humidity": 68
+  },
+  {
+    "id": 2,
+    "feels_like": 18.74,
+    "temp": 18.96,
+    "main": "Rain",
+    "wind_speed": 6.48,
+    "humidity": 70
+  },
+  {
+    "id": 3,
+    "feels_like": 19.56,
+    "temp": 20.01,
+    "main": "Rain",
+    "wind_speed": 3.6,
+    "humidity": 72
+  }
+]
